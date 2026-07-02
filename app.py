@@ -187,7 +187,7 @@ def start_proxy(host='0.0.0.0', port=8888, username='user', password='pass'):
 if __name__ == "__main__":
     # ======== إعدادات الخادم ========
     PROXY_HOST = '0.0.0.0'      # استمع على جميع الواجهات
-    PROXY_PORT = 443         # المنفذ
+    PROXY_PORT = 8080         # المنفذ
     PROXY_USER = 'ambtion'    # اسم المستخدم
     PROXY_PASS = '123456' # كلمة المرور
     
